@@ -1,0 +1,32 @@
+// 'use strict';
+
+// const { app } = require('../lib/server');
+// const { db } = require('../lib/models');
+// const supertest = require('supertest');
+// const requset = supertest(app);
+
+// beforeAll(async () => {
+//     await db.sync();    
+// });
+// afterAll(async () => {
+//     await db.drop();
+// });
+
+
+// describe('Testing the message route', () => {
+
+//     it('should read from messages data', async () => {
+//         const response = await req.get('/message');
+
+//         expect(response.status).toEqual(200);
+//         expect(response.body.count).toBeDefined();
+//         expect(response.body.results).toBeDefined();
+//     });
+//     it('should read from messages data', async () => {
+//         const response = await req.get('/message/1');
+
+//         expect(response.status).toEqual(200);
+//         expect(response.body.count).toEqual(1);
+//         expect(response.body.results).toBeDefined();
+//     });
+// });
