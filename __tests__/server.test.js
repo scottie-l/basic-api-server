@@ -1,10 +1,9 @@
 'use strict';
 
-const express = require('express/lib/request');
-const require = supertest(app);
+const req = require('express/lib/request');
+const req = supertest(app);
 const supertest = require('supertest');
 const { app } = require('./server.js');
-// const request = supertest(app);
 
 describe('Testing the server', () => { 
   it('Should send 404 on a bad route', async () => { // testing for the route
