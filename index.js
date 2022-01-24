@@ -1,7 +1,8 @@
 'use strict';
 
+// require('dotenv').config();
 const { start } = require('./lib/server.js');
-const { db } = require('./lib/models/index.js');
+const { db } = require('./lib/models');
 const PORT = process.env.PORT || 3000;
 
 // in order to perform operations against our db, we have to intialize
