@@ -1,5 +1,6 @@
 'use strict';
 
+// require('dotenv').config();
 const { start } = require('./lib/server.js');
 const { db } = require('./lib/models/index.js');
 const PORT = process.env.PORT || 3000;
